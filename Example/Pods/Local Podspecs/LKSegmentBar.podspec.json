@@ -1,0 +1,22 @@
+{
+  "name": "LKSegmentBar",
+  "version": "0.1.0",
+  "summary": "A short description of LKSegmentBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hlrwlbz123@sina.com/LKSegmentBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hlrwlbz123@sina.com": "136533638@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hlrwlbz123@sina.com/LKSegmentBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LKSegmentBar/Classes/**/*"
+}

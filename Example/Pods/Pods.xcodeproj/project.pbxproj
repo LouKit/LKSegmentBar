@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F7FA9689D7AD8A401860F9E1072170 /* LKSegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6AE5EDD300148128EBCC556F79C975 /* LKSegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12AA3ABC9FD68280B5BBC8A9A5033441 /* Pods-LKSegmentBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAEEEC0DA3B0A74C00CAD84D826292A /* Pods-LKSegmentBar_Example-dummy.m */; };
+		21F69EA617CC91AA852A6689BF2FED7A /* LKSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F7811634E65B3DADD3BFB0EDD9FF363C /* LKSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AA6F7A718B0633469C1D9639E57EE75 /* LKSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33778529F56F27E6796FEC29AF1589F2 /* LKSegmentBar.m */; };
+		3C9AC94CF5FB29DAF8E0ACF0505C1C6D /* UIView+LKSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DB323B9962C32EFB6584B06A6E7CB5 /* UIView+LKSegmentBar.m */; };
+		49739E1E47926CE2094BE5257E28B8CE /* Pods-LKSegmentBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D50D2B0238817C9E97A39340D1216900 /* Pods-LKSegmentBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A35348C393547DFC939F471991FF951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		61261895FBF7813F8B5CAA41CA7E9A52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		68C35C626DC29B482944B31B5B55E412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		74FD7B8E4F7B6F475CA8246D67B87B21 /* UIView+LKSegmentBar.h in Headers */ = {isa = PBXBuildFile; fileRef = A5235036FE3B823E3735BC92C99B7958 /* UIView+LKSegmentBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9146F15FDE1CC625E37F148C9CBE1542 /* Pods-LKSegmentBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC120F70FD8CDD85DA36BB1666EE59A /* Pods-LKSegmentBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		988FA8C92FACDB3ECED324FC74985813 /* LKSegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A32FA7782E7C30866DDEFFAE4C0CC /* LKSegmentBar-dummy.m */; };
+		EE443C96A3B5D707A00ADA5208B49169 /* LKSegmentController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF87F1B6324EEF11E0C76289F61D1EA /* LKSegmentController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32D5F69146B44E87B6228574278A94C /* Pods-LKSegmentBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5658DA481026308FBBA45E63A823563D /* Pods-LKSegmentBar_Tests-dummy.m */; };
+		F3EDFBFF934EB3F0E19526001A050457 /* LKSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9861522A267564F8BCDAB8FA37764688 /* LKSegmentController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0674E53DE1B7AA393557388BF244F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595F6207D7328A9E9AE327B32F1C1490;
+			remoteInfo = LKSegmentBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B79EF8B1EAB1AB63A9F3192430F1A /* Pods_LKSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKSegmentBar_Example.framework; path = "Pods-LKSegmentBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A42F3B96B02FEE26C0F35AE134E334 /* LKSegmentBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKSegmentBar.xcconfig; sourceTree = "<group>"; };
+		079857ABC8B4B50C4DC8844EB5440C76 /* Pods-LKSegmentBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKSegmentBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C1A32FA7782E7C30866DDEFFAE4C0CC /* LKSegmentBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKSegmentBar-dummy.m"; sourceTree = "<group>"; };
+		1EC120F70FD8CDD85DA36BB1666EE59A /* Pods-LKSegmentBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKSegmentBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		261494728376B5B3D3A7A9CB1040B683 /* Pods-LKSegmentBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKSegmentBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D4826A1F7D005947FD1BA6796C13202 /* Pods-LKSegmentBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LKSegmentBar_Tests.modulemap"; sourceTree = "<group>"; };
+		33778529F56F27E6796FEC29AF1589F2 /* LKSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LKSegmentBar.m; sourceTree = "<group>"; };
+		3CAEEEC0DA3B0A74C00CAD84D826292A /* Pods-LKSegmentBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKSegmentBar_Example-dummy.m"; sourceTree = "<group>"; };
+		4FF87F1B6324EEF11E0C76289F61D1EA /* LKSegmentController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKSegmentController.h; sourceTree = "<group>"; };
+		5658DA481026308FBBA45E63A823563D /* Pods-LKSegmentBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKSegmentBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		57A2427EBFC9BDDEC70475276C795B26 /* Pods-LKSegmentBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKSegmentBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59DB323B9962C32EFB6584B06A6E7CB5 /* UIView+LKSegmentBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LKSegmentBar.m"; sourceTree = "<group>"; };
+		5B6A9C23A887F083A206AF4164BB90BF /* Pods-LKSegmentBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKSegmentBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F3E5B599834AFB57EB1DB11B6F7FFD2 /* Pods-LKSegmentBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKSegmentBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		622A51B71605A1CFE464EFC49D36C6EC /* Pods-LKSegmentBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKSegmentBar_Example-resources.sh"; sourceTree = "<group>"; };
+		629EDDB1A283EE24F913A639134EE684 /* Pods-LKSegmentBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKSegmentBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		65B4B4E43EF7D5AC5B90DADCD331E95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8440DEBDE49CA305FC973A795B8FF6A3 /* Pods-LKSegmentBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LKSegmentBar_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9861522A267564F8BCDAB8FA37764688 /* LKSegmentController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LKSegmentController.m; sourceTree = "<group>"; };
+		98DB442ABF5B33F2F683A5EF9626F7CB /* LKSegmentBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKSegmentBar.framework; path = LKSegmentBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B2E84F68C01B6998863587621187A8 /* Pods-LKSegmentBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKSegmentBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5235036FE3B823E3735BC92C99B7958 /* UIView+LKSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LKSegmentBar.h"; sourceTree = "<group>"; };
+		ABC204D844725A6E121C3C9AB02868ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49016CE5340DE25E9D6A27E34E29333 /* Pods-LKSegmentBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKSegmentBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C9FE271D6F669B988A6D162AA4E76EAC /* Pods-LKSegmentBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKSegmentBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D50D2B0238817C9E97A39340D1216900 /* Pods-LKSegmentBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKSegmentBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D8550F3735C0E07362D5E5BE56590CDB /* LKSegmentBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LKSegmentBar.modulemap; sourceTree = "<group>"; };
+		E5C40EB4587B2F9F51E312818E323DB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6832FEE96F536D7B308EBA67A9BE393 /* Pods-LKSegmentBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKSegmentBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EB057444F68701CAFD35E87E5C64978B /* Pods-LKSegmentBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKSegmentBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F61C4E51EBB6E0A405DD29960AE38D29 /* LKSegmentBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKSegmentBar-prefix.pch"; sourceTree = "<group>"; };
+		F7811634E65B3DADD3BFB0EDD9FF363C /* LKSegmentBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKSegmentBar.h; sourceTree = "<group>"; };
+		FBB8047ADF2D57615A9EECB3367DFCA7 /* Pods_LKSegmentBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKSegmentBar_Tests.framework; path = "Pods-LKSegmentBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6AE5EDD300148128EBCC556F79C975 /* LKSegmentBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKSegmentBar-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005C84160D4CB72F7FF332B70E104AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61261895FBF7813F8B5CAA41CA7E9A52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9BD269CEB8DD5D9DC4121EBAE4E3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C35C626DC29B482944B31B5B55E412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC9CAF8750456D76FC559595B9FD4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A35348C393547DFC939F471991FF951 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFDDB32B993BC50120A89077DCD6D26 /* Pods-LKSegmentBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC204D844725A6E121C3C9AB02868ED /* Info.plist */,
+				2D4826A1F7D005947FD1BA6796C13202 /* Pods-LKSegmentBar_Tests.modulemap */,
+				5B6A9C23A887F083A206AF4164BB90BF /* Pods-LKSegmentBar_Tests-acknowledgements.markdown */,
+				261494728376B5B3D3A7A9CB1040B683 /* Pods-LKSegmentBar_Tests-acknowledgements.plist */,
+				5658DA481026308FBBA45E63A823563D /* Pods-LKSegmentBar_Tests-dummy.m */,
+				EB057444F68701CAFD35E87E5C64978B /* Pods-LKSegmentBar_Tests-frameworks.sh */,
+				629EDDB1A283EE24F913A639134EE684 /* Pods-LKSegmentBar_Tests-resources.sh */,
+				D50D2B0238817C9E97A39340D1216900 /* Pods-LKSegmentBar_Tests-umbrella.h */,
+				A3B2E84F68C01B6998863587621187A8 /* Pods-LKSegmentBar_Tests.debug.xcconfig */,
+				E6832FEE96F536D7B308EBA67A9BE393 /* Pods-LKSegmentBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-LKSegmentBar_Tests";
+			path = "Target Support Files/Pods-LKSegmentBar_Tests";
+			sourceTree = "<group>";
+		};
+		5130C46235570DF0A2E115361A7DBCD9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7811634E65B3DADD3BFB0EDD9FF363C /* LKSegmentBar.h */,
+				33778529F56F27E6796FEC29AF1589F2 /* LKSegmentBar.m */,
+				4FF87F1B6324EEF11E0C76289F61D1EA /* LKSegmentController.h */,
+				9861522A267564F8BCDAB8FA37764688 /* LKSegmentController.m */,
+				A5235036FE3B823E3735BC92C99B7958 /* UIView+LKSegmentBar.h */,
+				59DB323B9962C32EFB6584B06A6E7CB5 /* UIView+LKSegmentBar.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		604E72717276D105F453FF12081F31A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F076430C3F40CE73330E0D45ECFA6A39 /* Pods-LKSegmentBar_Example */,
+				2DFDDB32B993BC50120A89077DCD6D26 /* Pods-LKSegmentBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DF7FE384BDA63B0220BE1854F4CDC23 /* LKSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				BCC012F0AC0DAFF97B00674C08D70D9D /* LKSegmentBar */,
+				E51B3B649B10EA0618E260D337D14B18 /* Support Files */,
+			);
+			name = LKSegmentBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F5C98F4829E17B636FA5C996EC89B33 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF7FE384BDA63B0220BE1854F4CDC23 /* LKSegmentBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		72A00E3789CC4B67A2DDF3A1C39084CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98DB442ABF5B33F2F683A5EF9626F7CB /* LKSegmentBar.framework */,
+				002B79EF8B1EAB1AB63A9F3192430F1A /* Pods_LKSegmentBar_Example.framework */,
+				FBB8047ADF2D57615A9EECB3367DFCA7 /* Pods_LKSegmentBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6F5C98F4829E17B636FA5C996EC89B33 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				72A00E3789CC4B67A2DDF3A1C39084CF /* Products */,
+				604E72717276D105F453FF12081F31A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC012F0AC0DAFF97B00674C08D70D9D /* LKSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				5130C46235570DF0A2E115361A7DBCD9 /* Classes */,
+			);
+			name = LKSegmentBar;
+			path = LKSegmentBar;
+			sourceTree = "<group>";
+		};
+		E51B3B649B10EA0618E260D337D14B18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65B4B4E43EF7D5AC5B90DADCD331E95D /* Info.plist */,
+				D8550F3735C0E07362D5E5BE56590CDB /* LKSegmentBar.modulemap */,
+				06A42F3B96B02FEE26C0F35AE134E334 /* LKSegmentBar.xcconfig */,
+				1C1A32FA7782E7C30866DDEFFAE4C0CC /* LKSegmentBar-dummy.m */,
+				F61C4E51EBB6E0A405DD29960AE38D29 /* LKSegmentBar-prefix.pch */,
+				FF6AE5EDD300148128EBCC556F79C975 /* LKSegmentBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LKSegmentBar";
+			sourceTree = "<group>";
+		};
+		F076430C3F40CE73330E0D45ECFA6A39 /* Pods-LKSegmentBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E5C40EB4587B2F9F51E312818E323DB8 /* Info.plist */,
+				8440DEBDE49CA305FC973A795B8FF6A3 /* Pods-LKSegmentBar_Example.modulemap */,
+				57A2427EBFC9BDDEC70475276C795B26 /* Pods-LKSegmentBar_Example-acknowledgements.markdown */,
+				C9FE271D6F669B988A6D162AA4E76EAC /* Pods-LKSegmentBar_Example-acknowledgements.plist */,
+				3CAEEEC0DA3B0A74C00CAD84D826292A /* Pods-LKSegmentBar_Example-dummy.m */,
+				B49016CE5340DE25E9D6A27E34E29333 /* Pods-LKSegmentBar_Example-frameworks.sh */,
+				622A51B71605A1CFE464EFC49D36C6EC /* Pods-LKSegmentBar_Example-resources.sh */,
+				1EC120F70FD8CDD85DA36BB1666EE59A /* Pods-LKSegmentBar_Example-umbrella.h */,
+				5F3E5B599834AFB57EB1DB11B6F7FFD2 /* Pods-LKSegmentBar_Example.debug.xcconfig */,
+				079857ABC8B4B50C4DC8844EB5440C76 /* Pods-LKSegmentBar_Example.release.xcconfig */,
+			);
+			name = "Pods-LKSegmentBar_Example";
+			path = "Target Support Files/Pods-LKSegmentBar_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2DDFE53B6D62E2E60872848F83FF9118 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F7FA9689D7AD8A401860F9E1072170 /* LKSegmentBar-umbrella.h in Headers */,
+				21F69EA617CC91AA852A6689BF2FED7A /* LKSegmentBar.h in Headers */,
+				EE443C96A3B5D707A00ADA5208B49169 /* LKSegmentController.h in Headers */,
+				74FD7B8E4F7B6F475CA8246D67B87B21 /* UIView+LKSegmentBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4595BD76069690F3949FD9C1955871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146F15FDE1CC625E37F148C9CBE1542 /* Pods-LKSegmentBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B59FA1701F48630F922820945EC275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49739E1E47926CE2094BE5257E28B8CE /* Pods-LKSegmentBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		595F6207D7328A9E9AE327B32F1C1490 /* LKSegmentBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF6D8031D0BDF5249909F803F27F6B8 /* Build configuration list for PBXNativeTarget "LKSegmentBar" */;
+			buildPhases = (
+				C05E0675767B1B19AF27BA2C8F2F0DE0 /* Sources */,
+				005C84160D4CB72F7FF332B70E104AE7 /* Frameworks */,
+				2DDFE53B6D62E2E60872848F83FF9118 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKSegmentBar;
+			productName = LKSegmentBar;
+			productReference = 98DB442ABF5B33F2F683A5EF9626F7CB /* LKSegmentBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76BCFB4CBA333C1D6C335A1C8F06EEF2 /* Pods-LKSegmentBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06DF130EE9D915A42D9A63ADFE11999 /* Build configuration list for PBXNativeTarget "Pods-LKSegmentBar_Example" */;
+			buildPhases = (
+				E4899ECD622328D0236EFAD744F007C3 /* Sources */,
+				AFC9CAF8750456D76FC559595B9FD4BB /* Frameworks */,
+				7D4595BD76069690F3949FD9C1955871 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8745DF9EE7CA327E8219ECAC4FB2903C /* PBXTargetDependency */,
+			);
+			name = "Pods-LKSegmentBar_Example";
+			productName = "Pods-LKSegmentBar_Example";
+			productReference = 002B79EF8B1EAB1AB63A9F3192430F1A /* Pods_LKSegmentBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E85FE6C4CB3C74219E0DE46616AFB5D8 /* Pods-LKSegmentBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DD8B8DDF6FF37277BBB5950AD69387 /* Build configuration list for PBXNativeTarget "Pods-LKSegmentBar_Tests" */;
+			buildPhases = (
+				3BA86047E711FF63339817951B1891E6 /* Sources */,
+				7C9BD269CEB8DD5D9DC4121EBAE4E3AA /* Frameworks */,
+				C4B59FA1701F48630F922820945EC275 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LKSegmentBar_Tests";
+			productName = "Pods-LKSegmentBar_Tests";
+			productReference = FBB8047ADF2D57615A9EECB3367DFCA7 /* Pods_LKSegmentBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 72A00E3789CC4B67A2DDF3A1C39084CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				595F6207D7328A9E9AE327B32F1C1490 /* LKSegmentBar */,
+				76BCFB4CBA333C1D6C335A1C8F06EEF2 /* Pods-LKSegmentBar_Example */,
+				E85FE6C4CB3C74219E0DE46616AFB5D8 /* Pods-LKSegmentBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA86047E711FF63339817951B1891E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32D5F69146B44E87B6228574278A94C /* Pods-LKSegmentBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05E0675767B1B19AF27BA2C8F2F0DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988FA8C92FACDB3ECED324FC74985813 /* LKSegmentBar-dummy.m in Sources */,
+				2AA6F7A718B0633469C1D9639E57EE75 /* LKSegmentBar.m in Sources */,
+				F3EDFBFF934EB3F0E19526001A050457 /* LKSegmentController.m in Sources */,
+				3C9AC94CF5FB29DAF8E0ACF0505C1C6D /* UIView+LKSegmentBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4899ECD622328D0236EFAD744F007C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA3ABC9FD68280B5BBC8A9A5033441 /* Pods-LKSegmentBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8745DF9EE7CA327E8219ECAC4FB2903C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKSegmentBar;
+			target = 595F6207D7328A9E9AE327B32F1C1490 /* LKSegmentBar */;
+			targetProxy = E0674E53DE1B7AA393557388BF244F9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D65E723B692B9CACB38E244ECC3AA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079857ABC8B4B50C4DC8844EB5440C76 /* Pods-LKSegmentBar_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LKSegmentBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKSegmentBar_Example/Pods-LKSegmentBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LKSegmentBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62CAF287556060F6D33401C82D7F93DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3E5B599834AFB57EB1DB11B6F7FFD2 /* Pods-LKSegmentBar_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LKSegmentBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKSegmentBar_Example/Pods-LKSegmentBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LKSegmentBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7202E919C819B934184DC2FD1845049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A42F3B96B02FEE26C0F35AE134E334 /* LKSegmentBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKSegmentBar/LKSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKSegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKSegmentBar/LKSegmentBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LKSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0218DF922A0741A2F1EF6D7731A9578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A42F3B96B02FEE26C0F35AE134E334 /* LKSegmentBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKSegmentBar/LKSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKSegmentBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LKSegmentBar/LKSegmentBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LKSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE05A72A70EFE670DAC499056658A02F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6832FEE96F536D7B308EBA67A9BE393 /* Pods-LKSegmentBar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LKSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKSegmentBar_Tests/Pods-LKSegmentBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LKSegmentBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA8B4923AE604CD02ED8A47EDBA943B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B2E84F68C01B6998863587621187A8 /* Pods-LKSegmentBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LKSegmentBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKSegmentBar_Tests/Pods-LKSegmentBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LKSegmentBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DD8B8DDF6FF37277BBB5950AD69387 /* Build configuration list for PBXNativeTarget "Pods-LKSegmentBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8B4923AE604CD02ED8A47EDBA943B8 /* Debug */,
+				BE05A72A70EFE670DAC499056658A02F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF6D8031D0BDF5249909F803F27F6B8 /* Build configuration list for PBXNativeTarget "LKSegmentBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0218DF922A0741A2F1EF6D7731A9578 /* Debug */,
+				7202E919C819B934184DC2FD1845049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06DF130EE9D915A42D9A63ADFE11999 /* Build configuration list for PBXNativeTarget "Pods-LKSegmentBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62CAF287556060F6D33401C82D7F93DE /* Debug */,
+				4D65E723B692B9CACB38E244ECC3AA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module LKSegmentBar {
+  umbrella header "LKSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

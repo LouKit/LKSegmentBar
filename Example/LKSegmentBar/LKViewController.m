@@ -7,6 +7,9 @@
 //
 
 #import "LKViewController.h"
+#import "NormalViewController.h"
+#import "NavBarViewController.h"
+#import "CustomViewController.h"
 
 @interface LKViewController ()
 
@@ -14,16 +17,21 @@
 
 @implementation LKViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (indexPath.row == 0) {
+        
+        [self.navigationController pushViewController:[[NormalViewController alloc]init] animated:YES];
+    }else if (indexPath.row == 1){
+        [self.navigationController pushViewController:[[NavBarViewController alloc]init] animated:YES];
+    }else if (indexPath.row == 2){
+        [self.navigationController pushViewController:[[CustomViewController alloc]init] animated:YES];
+    }
+}
 @end

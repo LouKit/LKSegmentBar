@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		144CCE93FE023FD4A8DA56CE /* Pods_LKSegmentBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BC03A0463E57206C20C902 /* Pods_LKSegmentBar_Example.framework */; };
+		39ACB31E1E7F93E70074E3C9 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ACB3161E7F93E70074E3C9 /* TestViewController1.m */; };
+		39ACB31F1E7F93E70074E3C9 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39ACB3171E7F93E70074E3C9 /* TestViewController1.xib */; };
+		39ACB3201E7F93E70074E3C9 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ACB3191E7F93E70074E3C9 /* TestViewController2.m */; };
+		39ACB3211E7F93E70074E3C9 /* TestViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39ACB31A1E7F93E70074E3C9 /* TestViewController2.xib */; };
+		39ACB3221E7F93E70074E3C9 /* TestViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ACB31C1E7F93E70074E3C9 /* TestViewController3.m */; };
+		39ACB3231E7F93E70074E3C9 /* TestViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39ACB31D1E7F93E70074E3C9 /* TestViewController3.xib */; };
+		39ACB32A1E7F93FD0074E3C9 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ACB3251E7F93FD0074E3C9 /* CustomViewController.m */; };
+		39ACB32B1E7F93FD0074E3C9 /* NavBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ACB3271E7F93FD0074E3C9 /* NavBarViewController.m */; };
+		39ACB32C1E7F93FD0074E3C9 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39ACB3291E7F93FD0074E3C9 /* NormalViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +47,22 @@
 
 /* Begin PBXFileReference section */
 		01D0E91CF6B77A3E50734796 /* Pods-LKSegmentBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSegmentBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKSegmentBar_Tests/Pods-LKSegmentBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0D65461336AD78E9E233AC21 /* LKSegmentBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKSegmentBar.podspec; path = ../LKSegmentBar.podspec; sourceTree = "<group>"; };
+		0D65461336AD78E9E233AC21 /* LKSegmentBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKSegmentBar.podspec; path = ../LKSegmentBar.podspec; sourceTree = "<group>"; };
+		39ACB3151E7F93E70074E3C9 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		39ACB3161E7F93E70074E3C9 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		39ACB3171E7F93E70074E3C9 /* TestViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
+		39ACB3181E7F93E70074E3C9 /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		39ACB3191E7F93E70074E3C9 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
+		39ACB31A1E7F93E70074E3C9 /* TestViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController2.xib; sourceTree = "<group>"; };
+		39ACB31B1E7F93E70074E3C9 /* TestViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController3.h; sourceTree = "<group>"; };
+		39ACB31C1E7F93E70074E3C9 /* TestViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController3.m; sourceTree = "<group>"; };
+		39ACB31D1E7F93E70074E3C9 /* TestViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController3.xib; sourceTree = "<group>"; };
+		39ACB3241E7F93FD0074E3C9 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		39ACB3251E7F93FD0074E3C9 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		39ACB3261E7F93FD0074E3C9 /* NavBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarViewController.h; sourceTree = "<group>"; };
+		39ACB3271E7F93FD0074E3C9 /* NavBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarViewController.m; sourceTree = "<group>"; };
+		39ACB3281E7F93FD0074E3C9 /* NormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		39ACB3291E7F93FD0074E3C9 /* NormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
 		4E8437125103B2847BB6DDDA /* Pods_LKSegmentBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKSegmentBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3934A5F17D0C008D315B34 /* Pods-LKSegmentBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSegmentBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKSegmentBar_Example/Pods-LKSegmentBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LKSegmentBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKSegmentBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +85,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7CC95B0D61110DD1EA1EE655 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7CC95B0D61110DD1EA1EE655 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F2BA917410B41C32CEFD6B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9F2BA917410B41C32CEFD6B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A9BC03A0463E57206C20C902 /* Pods_LKSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKSegmentBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DDAC66B2D4A127BAD34DEC /* Pods-LKSegmentBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSegmentBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKSegmentBar_Tests/Pods-LKSegmentBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C9DB2A99890E88C630D5E967 /* Pods-LKSegmentBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSegmentBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKSegmentBar_Example/Pods-LKSegmentBar_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,9 +119,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39ACB3141E7F93D20074E3C9 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				39ACB3151E7F93E70074E3C9 /* TestViewController1.h */,
+				39ACB3161E7F93E70074E3C9 /* TestViewController1.m */,
+				39ACB3171E7F93E70074E3C9 /* TestViewController1.xib */,
+				39ACB3181E7F93E70074E3C9 /* TestViewController2.h */,
+				39ACB3191E7F93E70074E3C9 /* TestViewController2.m */,
+				39ACB31A1E7F93E70074E3C9 /* TestViewController2.xib */,
+				39ACB31B1E7F93E70074E3C9 /* TestViewController3.h */,
+				39ACB31C1E7F93E70074E3C9 /* TestViewController3.m */,
+				39ACB31D1E7F93E70074E3C9 /* TestViewController3.xib */,
+			);
+			name = Test;
+			path = LKSegmentBar/Test;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				39ACB3141E7F93D20074E3C9 /* Test */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LKSegmentBar */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -132,6 +174,12 @@
 		6003F593195388D20070C39A /* Example for LKSegmentBar */ = {
 			isa = PBXGroup;
 			children = (
+				39ACB3241E7F93FD0074E3C9 /* CustomViewController.h */,
+				39ACB3251E7F93FD0074E3C9 /* CustomViewController.m */,
+				39ACB3261E7F93FD0074E3C9 /* NavBarViewController.h */,
+				39ACB3271E7F93FD0074E3C9 /* NavBarViewController.m */,
+				39ACB3281E7F93FD0074E3C9 /* NormalViewController.h */,
+				39ACB3291E7F93FD0074E3C9 /* NormalViewController.m */,
 				6003F59C195388D20070C39A /* LKAppDelegate.h */,
 				6003F59D195388D20070C39A /* LKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -280,6 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				39ACB3231E7F93E70074E3C9 /* TestViewController3.xib in Resources */,
+				39ACB3211E7F93E70074E3C9 /* TestViewController2.xib in Resources */,
+				39ACB31F1E7F93E70074E3C9 /* TestViewController1.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -394,9 +445,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39ACB31E1E7F93E70074E3C9 /* TestViewController1.m in Sources */,
+				39ACB3201E7F93E70074E3C9 /* TestViewController2.m in Sources */,
+				39ACB32B1E7F93FD0074E3C9 /* NavBarViewController.m in Sources */,
+				39ACB32A1E7F93FD0074E3C9 /* CustomViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LKViewController.m in Sources */,
+				39ACB3221E7F93E70074E3C9 /* TestViewController3.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				39ACB32C1E7F93FD0074E3C9 /* NormalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
