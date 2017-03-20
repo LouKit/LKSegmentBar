@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LKSegmentBar_Example' do
+  pod 'LKSegmentBar', :path => '../'
+
+  target 'LKSegmentBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
