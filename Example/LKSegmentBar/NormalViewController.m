@@ -42,7 +42,7 @@
     self.segmentBarVc1 = segmentBarVc;
     
     self.segmentBarVc1.contentViewFrame = CGRectMake(0, 64, self.view.frame.size.width, 300);
-    self.segmentBarVc1.segmentBarFrame = CGRectMake(0, 10, self.view.frame.size.width, 35);
+    self.segmentBarVc1.segmentBarFrame = CGRectMake(0, 0, self.view.frame.size.width, 35);
     //滚动的实际范围为 contentView - segmentBar高度跟偏移量
 
     [self.view addSubview:self.segmentBarVc1.view];
