@@ -22,7 +22,7 @@ pod "LKSegmentBar"
 
 ## Author
 
-hlrwlbz123@sina.com, 136533638@qq.com
+LouKit hlrwlbz123@sina.com
 
 ## License
 
